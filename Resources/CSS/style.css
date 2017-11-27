@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+	  margin: 0px;
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+    text-align: center;
+	}
+
+
+  /* NOTE: Header */
+  .header {
+    background-color: : black;
+  }
+
+.header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  position: fixed;
+  background: black;
+  align-items: center;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  float: left;
+  padding-left: 20px;
+}
+
+.logo img{
+  height: 50px;
+  width: 150px;
+}
+
+
+.navbar {
+  width: 1000px;
+  height: 80px;
+  border-bottom: 1px solid seashell;
+  float: right;
+}
+
+.navbar span {
+  display: inline-flex;
+}
+
+span a {
+  display: inline-block;
+  color: white;
+  text-align: right;
+  align-items: flex-start;
+  /* NOTE: Space between nav links */
+  padding: 20px;
+}
+
+span a:hover {
+  background: white;
+  color: black;
+}
+
+nav {
+  display: inline-flex;
+  width: 1200px;
+  height: 80px;
+  align-items: center;
+  align-content: stretch;
+}
+/* NOTE: Mission Container */
+.Mission {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: black;
+
+}
+/* NOTE: Mission text */
+.Mission h2 {
+  background-color: black;
+  color: white;
+  width: 1200px;
+  text-align: center;
+  background-position: center;
+  position: absolute;
+  font-size: 34px;
+  top: 330px;
+  align-items: center;
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+}
+/* NOTE: Mission text */
+.Mission h4 {
+  background-color: black;
+  background-position: center;
+  position: absolute;
+  justify-content: center;
+  width: 1200px;
+  color: white;
+  font-size: 24px;
+  top: 385px;
+  display: inline-block;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.Mission img {
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+/* NOTE: Tea Comntainer */
+.TeaContent{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+/* NOTE: Tea image container */
+.Tea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* NOTE: Tea text */
+.Tea h2, h4{
+  width: 100%;
+  margin: 0px;
+  padding: 5px;
+}
+
+.Blitz img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 5px;
+}
+
+.Rum img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 5px;
+}
+
+.Donuts img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 5px;
+}
+
+.Myrtle img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 5px;
+}
+
+.Bedford img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 5px;
+}
+
+/* NOTE: Locations */
+
+.Stores {
+  width: 1200px;
+  margin: auto;
+  height: 500px;
+  padding-top: 70px;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+
+.location {
+  display: block;
+
+}
+
+.locations {
+  margin: auto;
+  width: 1100px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.location h1 {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+}
+/* NOTE: Downtown */
+.Downtown h2 {
+  background-color: black;
+  width: 300px;
+  display: block;
+  padding: 10px;
+  opacity: 1.0;
+  margin: 0px 20px;
+  flex-basis: 280px;
+  flex-direction: column;
+}
+
+.Downtown p {
+  background-color: black;
+  width: auto;
+  display: block;
+  margin: auto;
+  padding: 25px;
+  margin: 0px 20px;
+}
+
+/* NOTE: Bayside */
+.Bayside h2 {
+  background-color: black;
+  width: 300px;
+  display: block;
+  padding: 10px;
+  opacity: 1.0;
+  margin: 0px 20px;
+  flex-basis: 280px;
+  flex-direction: column;
+}
+.Bayside p {
+  background-color: black;
+  width: auto;
+  display: block;
+  margin: auto;
+  padding: 25px;
+  margin: 0px 20px;
+}
+
+/* NOTE: Oakdale */
+  .oakdale h2 {
+    background-color: black;
+    width: 300px;
+    display: block;
+    padding: 10px;
+    opacity: 1.0;
+    margin: 0px 20px;
+    flex-basis: 280px;
+    flex-direction: column;
+  }
+
+  .oakdale p {
+    background-color: black;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+    margin: 0px 20px;
+  }
+
+/* NOTE: Contact info */
+.contacts {
+  height: : 200px;
+
+  display: inline-block;
+  text-align: center;
+}
+
+.contact h2, h5{
+  display: block;
+  padding: 20px;
+  margin: auto;
+}
+
+/* NOTE: Footer */
+footer span {
+  display: block;
+  color: white;
+  text-align: left;
+  height: 20px;
+  padding: 0px;
+  margin: 20px;
+  font-size: 15px;
+}
